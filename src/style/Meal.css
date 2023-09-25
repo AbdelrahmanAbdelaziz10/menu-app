@@ -1,0 +1,30 @@
+.card{
+    overflow: hidden;
+    display: flex !important;
+    flex-direction: row !important;
+    position: relative !important;
+}
+.image{
+    width: 22% !important;
+    overflow: hidden !important;
+    border-radius: 3px;
+}
+img{
+    width :100%;
+    max-height:190px;
+}
+.text{
+    padding-right:2%;
+    margin: 8px 0;
+}
+.fw{
+    font-weight: 500;
+    /* position: absolute; */
+    /* top:10px; */
+    /* left: 23px; */
+}
+.p-l{
+    position: absolute;
+    left: 20px !important;
+    bottom: 10px;
+}
